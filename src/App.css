@@ -22,7 +22,7 @@ body{
 
 .mainUl {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   list-style-type: none;
   padding: 0;
