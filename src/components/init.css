@@ -1,0 +1,45 @@
+.row{
+    width:100vw;
+    height:90vh;
+    overflow-y: scroll;
+    background-color:#1a1a1a;
+}
+
+.colLeft,.colRight{
+   position: relative;
+   color:white;
+   font-size: 35px;
+   padding:20px;
+}
+
+.subHead{
+    font-size: 15px;
+    margin-top: 0;
+    color:#999999;
+}
+
+.colLeft{
+    justify-content:center;
+    align-items:center;
+}
+
+.image{
+    width:100%;
+    height:100%;
+    max-width: 500px;
+    max-height:500px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    padding:10px;
+    transform:translate(-50%,-50%)
+  }
+
+  @media (max-width:500px){
+      .image{
+        padding:0;
+      }
+      .colLeft,.colRight{
+        font-size: 25px;
+     }
+  }
